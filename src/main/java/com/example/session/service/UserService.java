@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     @Autowired
-    private UserRepository userRepository
+    private UserRepository userRepository;
 
     //login logic
     public void login(
